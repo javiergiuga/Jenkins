@@ -22,7 +22,7 @@ pipeline {
         } 
         stage('Upload to S3') {
             steps {
-                sh 'aws s3 cp Jenkins s3://jenkins-javier --recursive'
+                sh 'aws s3 cp Jenkins s3://jenkins-giu--recursive'
             }
         }         
     }
